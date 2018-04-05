@@ -1,0 +1,15 @@
+Definir que carta você quer com o simbolo e o naipe.
+Começar pelo baralho empilhado
+Defina uma pilha de descarte
+Defina uma pilha de descarte de coringas
+Defina uma pilha de descarte de cartas brancas
+ENQUANTO houver uma carta no topo do baralho:
+pegar a carta no topo do baralho
+SE a carta tiver o simbolo e o naipe definidos
+responder: ENCONTROU
+SE  a carta for uma carta em branco despejar na pilha de descarte de cartas brancas
+SE  a carta for uma carta coringa despejar na pilha de descarte de coringas
+Não enconrtou, descarte a carta na pilha de descarte e continue.
+SE o baralho acabar, responder: NÃO ENCONTROU.
+SE desejar as cartas coringas pegue a pilha de descarte de coringas
+SE desejar as cartas em branco pegue a pilha de descarte de cartas brancas

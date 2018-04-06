@@ -14,7 +14,9 @@ nav {
     color: purple; 
     background-color:rgb(207, 205, 205);
     height: 40px;
+    width: 99%;
     text-align: center;
+    position: fixed;
 }
 .menu {
     margin: 20px;
@@ -24,11 +26,14 @@ nav a img{
     height: 35px;
 }
 .banner img{ 
-    width: 100%;
+    width:60%;
 }
 #logo {
-    margin-right: 80px;
+    position:relative;
+    right:250px;       
 }
+
+
 .buy {
     text-align: right;
     

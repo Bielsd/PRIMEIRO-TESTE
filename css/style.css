@@ -5,7 +5,8 @@ a:link
 } 
 
 .oia{
-    padding-left: 1000px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav {
@@ -17,16 +18,24 @@ nav {
     width: 99%;
     text-align: center;
     position: fixed;
+    opacity: 0.6;
 }
 .menu {
     margin: 20px;
 }
+
+.pp img{
+    width: 25px;
+    height: 25px;
+}
+
 nav a img{
     width: 35px;
     height: 35px;
 }
 .banner img{ 
-    width:60%;
+    margin-top: 50px;
+    width:70%;
 }
 #logo {
     position:relative;
@@ -35,9 +44,22 @@ nav a img{
 
 
 .buy {
-    text-align: right;
+    text-align: right;    
+}
+.pesquisa {
+    display: flex;
     
 }
+.pesquisa li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+#search {
+    width: 10px;
+    height: 10px;
+}
+
+
 
 /* nav a {
     
